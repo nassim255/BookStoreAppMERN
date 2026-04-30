@@ -26,7 +26,7 @@ function FeaturedProducts() {
 
 
 
-  const featuredBooks = bookList?.filter(book => book.isFeautred === true);
+  const featuredBooks = bookList?.filter(book => book.isFeatured === true);
 
   return (
     <div className='mt-10'>
@@ -46,7 +46,7 @@ function FeaturedProducts() {
             <h6 className='text-center my-3'>{book.title}</h6>
             </Link>
             <span className='text-gray-400'>{book?.author}</span>
-            <strong className='text-[#F86D72]'>{book?.price} $</strong>
+            <strong className='text-[#F86D72]'>{book?.price} DA</strong>
             
             <div className='text-sm text-gray-500'>Stock: {book.stock}
               

@@ -75,7 +75,7 @@ function Allbooks() {
 
             <span className='text-gray-400'>{book?.author}</span>
 
-            <strong className='text-[#F86D72]'>{book?.price} $</strong>
+            <strong className='text-[#F86D72]'>{book?.price} DA</strong>
         </div>
         </a>
         ))}

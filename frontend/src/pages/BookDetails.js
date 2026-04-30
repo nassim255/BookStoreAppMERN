@@ -50,7 +50,7 @@ function BookDetails() {
             <h3 className='mb-5'>{book?.title}</h3>
          <p className='text-lg text-gray-600 mb-2'>{book.author}</p>
        <p className="text-gray-500 mb-4 leading-relaxed">{book.description}</p>
-       <p className="text-2xl font-bold text-[#F86D72] mb-2">{book.price} $</p>   
+       <p className="text-2xl font-bold text-[#F86D72] mb-2">{book.price} DA</p>   
 
        <p className={`${book?.stock > 0 ? "text-green-600" : "text-red-600"}`}>
         
